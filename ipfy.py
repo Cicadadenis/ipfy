@@ -25,19 +25,6 @@ lightcyan = '\033[96m'
 yellow = '\033[93m'
 # Clear The Terminal
 os.system('clear')
-# Banner
-print(bold+cyan+"""
-________________________________
-< Poisk Po IP Bednakov-Xack-Live >
- --------------------------------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
-comand : python2 ipfy.py -t "you ip adress"
-"""+clear)
-print(lightcyan+bold+"[ Written Bednakov-Xack-Live ] | [Bednakov D. L.]\n"+clear)
 					                                 
 ip = args.target
 # Let's Begin
